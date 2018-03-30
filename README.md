@@ -1,3 +1,3 @@
 # djangoapp
 
-A simple test app to learn deploying up Digital Ocean and Heroku servers.
+A simple test app to learn deploying to Digital Ocean and Heroku servers.
