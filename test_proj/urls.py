@@ -15,10 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from rest_framework.documentation import include_docs_urls
 
 urlpatterns = [
-    url(r'^docs', include_docs_urls(title='DjangoApp API')),
+    url(r'^', include('rest_framework_docs.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'api', include('api.urls')),
 ]
