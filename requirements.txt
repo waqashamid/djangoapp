@@ -28,7 +28,7 @@ friends==0.1
 future==0.16.0
 goodreads==0.3.2
 honcho==1.0.1
-httplib2==0.8
+httplib2==0.19.0
 idna==2.6
 itsdangerous==0.24
 itypes==1.1.0
